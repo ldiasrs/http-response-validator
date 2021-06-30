@@ -8,5 +8,5 @@
 
 ```
 npm install
-test:regression
+npm test:regression
 ```
