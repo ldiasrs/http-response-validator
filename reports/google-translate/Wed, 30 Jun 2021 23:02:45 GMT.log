@@ -1,0 +1,66 @@
+info: Requesting to https://translate.google.com/ {"timestamp":"2021-06-30T23:02:45.237Z"}
+info: ###########################################################
+>>>>> Request: 
+ {
+  "url": "https://translate.google.com/",
+  "method": "get",
+  "headers": {
+    "common": {
+      "Accept": "application/json, text/plain, */*"
+    },
+    "delete": {},
+    "get": {},
+    "head": {},
+    "post": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "put": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "patch": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    }
+  },
+  "transformRequest": [
+    null
+  ],
+  "transformResponse": [
+    null
+  ],
+  "timeout": 0,
+  "xsrfCookieName": "XSRF-TOKEN",
+  "xsrfHeaderName": "X-XSRF-TOKEN",
+  "maxContentLength": -1,
+  "axios-retry": {
+    "retryCount": 0,
+    "lastRequestTime": 1625094165239
+  }
+}
+ {"timestamp":"2021-06-30T23:02:45.239Z"}
+info: 
+###########################################################
+>>>>> Response headers
+{
+  "content-type": "text/html; charset=utf-8",
+  "x-ua-compatible": "IE=edge",
+  "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+  "pragma": "no-cache",
+  "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+  "date": "Wed, 30 Jun 2021 23:02:45 GMT",
+  "p3p": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+  "content-security-policy": "script-src 'report-sample' 'nonce-Af8rimS9ABcHx7AaAyVWyA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateWebserverUi/cspreport;worker-src 'self'",
+  "cross-origin-resource-policy": "same-site",
+  "server": "ESF",
+  "x-xss-protection": "0",
+  "x-frame-options": "SAMEORIGIN",
+  "x-content-type-options": "nosniff",
+  "set-cookie": [
+    "NID=218=aiYHE0WatS5C8WqRwdDjxlKiYAyF0sklnvfxe58KXRh5Zaa07eW5e4CYwHCwkjLGddQN1irtEUN1mhVWxLCla43u1uuokzbSebBrFYAsF5YwylKuSmzjCt7M2Wk__cmlAL8QhTkD4pyl7_UnVOP2JIqOTnjXljNAtE10e7PR1UU; expires=Thu, 30-Dec-2021 23:02:45 GMT; path=/; domain=.google.com; HttpOnly"
+  ],
+  "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+  "accept-ranges": "none",
+  "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+  "connection": "close",
+  "transfer-encoding": "chunked"
+}
+ {"timestamp":"2021-06-30T23:02:45.800Z"}
